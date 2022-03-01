@@ -119,21 +119,20 @@ section {
 
 }
 
-.work ul li one img {
-    position: relative;
-    display: inline-block;
-    
-}
 
-
+ 
 .work ul li p {
+    
     position: absolute;
     z-index: 9;
     text-align: left;
+    padding: 10px;
     width: 35%;
-    background: rbga(32,178,170,0.7);    
+    background-color: rbga(32,178,170,0.7);    
     
 }
+
+
 footer {
     margin-top: 25px;
     display: flex;
