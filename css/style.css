@@ -89,9 +89,19 @@ article {
     width: 75%;
 }
 
+section {
+    display:flex;
+}
 
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 
-
+.one {
+    width: 100%;
+}
 
 footer {
     margin-top: 25px;
