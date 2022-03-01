@@ -91,18 +91,48 @@ article {
 
 section {
     display:flex;
+
 }
 
 .work {
-    display: flex;
-    flex-wrap: wrap;
+    position: relative;
+    width: 70%;
+    margin: 15px 25px;
+    
     padding: 10px;
 }
 
-.one {
-    width: 100%;
+.work ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 15px;
+
 }
 
+.work ul li {
+    display: flex;
+    background-attachment: cover;
+    margin: 10px;
+    border: 3px solid lightseagreen;
+
+}
+
+.work ul li one img {
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+.work ul li p {
+    position: absolute;
+    z-index: 9;
+    text-align: left;
+    width: 35%;
+    background: rbga(32,178,170,0.7);    
+    
+}
 footer {
     margin-top: 25px;
     display: flex;
