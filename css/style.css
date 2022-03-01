@@ -102,26 +102,19 @@ footer {
 .contact {
     display: flex;
     align-items: center;
-    width: 70%;
-    
+    width: 70%;    
 }
 
 footer ul {
     display: flex;
     flex-wrap: wrap;
-    
-    
-
 }
 
 footer ul li {
     display: flex;
-    
-    
 }
 
-footer ul li a {
-    
+footer ul li a {    
     border-bottom: 2px solid darkblue;
     margin-right: 15px;
     padding: 10px 20px;
