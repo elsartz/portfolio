@@ -71,6 +71,19 @@ header nav ul li a:hover {
 
 .hero {
     
+    padding: 60px; 
+    background-image: url("./images/hero-img.jpg");
+    /* height: 600px; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    /* additional positioning */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    align-items: flex-start;
 }
 
 
