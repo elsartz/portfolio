@@ -135,17 +135,26 @@ section {
     opacity: 100%;
 }
  
+strong {
+    font-size: 20px;
+}
+
 .work ul li p {
-    
+    margin-top: 10px;
     position: absolute;
     z-index: 9;
     text-align: left;
+    font-size: 12px;
     padding: 10px;
-    width: 35%;
-    background-color: rbga(32,178,170,0.7);    
+    width: 18%;
+    background-color: rgba(32,178,170,0.7);    
     
 }
 
+.one p {
+    position: relative;
+    margin-top: 50px;
+}
 
 footer {
     margin-top: 25px;
@@ -166,6 +175,7 @@ footer ul {
 
 footer ul li {
     display: flex;
+    
 }
 
 footer ul li a {    
@@ -175,6 +185,7 @@ footer ul li a {
     font-size: 1.55vw;
     text-decoration: none;
     text-shadow: 0 0 10px rgb(32, 178, 170);
+    
 }
 
 footer ul li a:hover {
