@@ -178,10 +178,13 @@ footer ul {
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 footer ul li {
     list-style: none;
 }
 
+=======
+>>>>>>> second-approach
 footer ul li a {    
     border-bottom: 3px solid darkblue;
     margin-right: 15px;
