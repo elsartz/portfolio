@@ -13,6 +13,7 @@ body {
 
 
 header {
+    width: 100%;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -58,7 +59,7 @@ header nav ul li a {
     margin-right: 15px;
     padding: 10px 20px;
     color: aquamarine;    
-    font-size: 1.55vw;
+    font-size: 26px;  /* 1.55vw */
     text-decoration: none;
     text-shadow: 0 0 10px rgb(32, 178, 170);
 }
@@ -73,17 +74,19 @@ section {
 }
 
 .hero {
-    
-    background-size: cover; 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
 
+.hero img {
+    width: 100%;
+}
+
 .cool p {
     position: absolute;
-    margin-top: 335px;
+    margin-top: 135px;
     margin-left: 170px;
     font-size: 24px;
     background-color: lightseagreen;
@@ -134,20 +137,16 @@ article {
 
 .work ul li {
     display: flex;
-    background-attachment: cover;
     margin: 10px;
     border: 3px solid lightseagreen;
     opacity: 60%;
-
 }
 
 .work ul li:hover {
     opacity: 100%;
 }
  
-.work ul li:active {
-    
-}
+
 strong {
     font-size: 20px;
 }
@@ -164,10 +163,6 @@ strong {
     
 }
 
-.one p {
-    position: relative;
-    margin-top: 50px;
-}
 
 footer {
     margin-top: 25px;
@@ -195,12 +190,26 @@ footer ul li a {
     border-bottom: 3px solid darkblue;
     margin-right: 15px;
     padding: 10px 20px;
-    font-size: 1.55vw;
+    font-size: 1.55vw; 
     text-decoration: none;
-    text-shadow: 0 0 10px rgb(32, 178, 170);
+    text-shadow: 0 0 10px rgb(0, 0, 139);
     
 }
 
 footer ul li a:hover {
     border-bottom: 3px solid rgb(230, 137, 16);
+}
+
+
+
+@media screen and (max-width: 980px) {
+    
+   
+    .work ul li img {
+         width: 100%; 
+    }
+
+    .about-me {
+        font-size: x-large;
+    }
 }
