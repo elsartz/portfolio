@@ -178,6 +178,10 @@ footer ul {
     flex-wrap: wrap;
 }
 
+footer ul li {
+    list-style: none;
+}
+
 footer ul li a {    
     border-bottom: 3px solid darkblue;
     margin-right: 15px;
