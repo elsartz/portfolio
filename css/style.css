@@ -81,6 +81,7 @@ section {
     width: 100%;
 }
 
+
 /* Quote of the day :) */
 .cool p {
     position: absolute;
@@ -116,6 +117,18 @@ article {
     text-align: justify;
     padding: 25px;
     width: 75%;
+}
+
+.about-me img {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 30%;    
+}
+
+#only {
+    display: flex;
+    align-items: flex-end;
 }
 
 /* Working projects */
